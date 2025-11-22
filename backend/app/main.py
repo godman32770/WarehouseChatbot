@@ -16,4 +16,4 @@ app.include_router(chatbot.router)
 
 @app.get("/")
 async def read_root():
-    return {"message": "Welcome to the Exxon Chatbot API!"} 
+    return {"message": "Welcome to the Chatbot API!"} 

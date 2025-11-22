@@ -8,9 +8,9 @@ interface AppLayoutProps {
 
 export function AppLayout({ children, showNavigation = true }: AppLayoutProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-red-900 text-white">
+    <div className="min-h-screen bg-gradient-to-b from-black to-red-900 text-white w-full">
       {showNavigation && <Navigation />}
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 w-full max-w-none">{children}</main>
     </div>
   )
 }
