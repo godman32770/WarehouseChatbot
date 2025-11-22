@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-  <div className="w-full bg-gradient-to-b from-black to-red-900 min-h-screen">{children}</div>
+        <div className="max-w-md mx-auto bg-gradient-to-b from-black to-red-900 min-h-screen">{children}</div>
       </body>
     </html>
   )

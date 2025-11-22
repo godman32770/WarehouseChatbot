@@ -14,7 +14,7 @@ export default function HomePage() {
       <div className="w-full flex justify-center pt-8 z-10">
         {/* If you have an SVG for the logo, use it here for best match */}
         <span className="text-5xl font-extrabold tracking-tight" style={{ fontFamily: "sans-serif" }}>
-          CSS400<span className="text-red-500"> </span> 
+          Ex<span className="text-red-500">x</span>on
         </span>
       </div>
 
@@ -34,8 +34,8 @@ export default function HomePage() {
 
         {/* Welcome Text */}
         <div className="text-center space-y-2">
-          <h2 className="text-3xl font-bold tracking-wide">Database Chatbot</h2>
-          <h2 className="text-3xl font-bold tracking-wide">CSS400</h2>
+          <h2 className="text-3xl font-bold tracking-wide">Ready to manage</h2>
+          <h2 className="text-3xl font-bold tracking-wide">today's?</h2>
         </div>
       </div>
 

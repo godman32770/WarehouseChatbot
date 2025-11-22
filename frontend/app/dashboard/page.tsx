@@ -22,8 +22,8 @@ export default function DashboardPage() {
       <div className="p-4 space-y-6">
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-2xl font-semibold text-white">Dashboard</h1>
-          <h1 className="text-2xl font-semibold text-white">Trend</h1>
+          <h1 className="text-2xl font-semibold text-white">Ready to manage</h1>
+          <h1 className="text-2xl font-semibold text-white">today's?</h1>
         </div>
 
         {/* Stats Cards */}

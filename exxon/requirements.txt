@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+httpx
+pydantic
+sqlalchemy
+aiomysql
+python-dotenv
+openai
+pymysql
+langchain-core
+langchain-community
+langchain-openai
